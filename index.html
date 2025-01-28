@@ -39,147 +39,264 @@
         </header>
         <main>
             <section class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="card h-100" style="width: 18rem;">
-                            <picture class="card-img-top">
-                                <source
-                                  srcset="
-                                    /img/arenal-costa-rica-k7TE--1600x900@abc-small-1x..jpg,
-                                    /img/arenal-costa-rica-k7TE--1600x900@abc-small-2x..jpg 2x
-                                  "
-                                  class="w-100"
-                                  media="(max-width:734px)"
-                                />
-                                <source
-                                  srcset="
-                                    /img/arenal-costa-rica-k7TE--1600x900@abc-medium-1x..jpg,
-                                    /img/arenal-costa-rica-k7TE--1600x900@abc-medium-2x..jpg 2x
-                                  "
-                                  class="w-100"
-                                  media="(max-width:1068px)"
-                                />
-                                <source
-                                  srcset="
-                                    /img/arenal-costa-rica-k7TE--1600x900@abc-large-1x..jpg,
-                                    /img/arenal-costa-rica-k7TE--1600x900@abc-large-2x..jpg 2x
-                                  "
-                                  class="w-100"
-                                  media="(max-width:1440px)"
-                                />
-                                <source
-                                  srcset="
-                                    /img/arenal-costa-rica-k7TE--1600x900@abc-xlarge-1x..jpg,
-                                    /img/arenal-costa-rica-k7TE--1600x900@abc-xlarge-2x..jpg 2x
-                                  "
-                                  class="w-100"
-                                  media="(min-width:0px)"
-                                />
-                                <img
-                                  src="/img/arenal-costa-rica-k7TE--1600x900@abc-xlarge-1x..jpg"
-                                  alt="An iPhone next to an open Mac laptop"
-                                  class="w-100"
-                                />
-                            </picture>
-                            <div class="card-body">
-                              <p class="card-text">Paisaje de arenal en Costa Rica</p>
+                <div class="row py-3">
+                  <div class="col p-2">
+                    <div class="card h-100" style="width: 18rem;">
+                        <picture class="card-img-top">
+                            <source srcset="/img/arenal-costa-rica-k7TE--1600x900@abc-small-1x..jpg" class="w-100"
+                                media="(max-width:734px)" />
+                            <source srcset="/img/arenal-costa-rica-k7TE--1600x900@abc-medium-1x..jpg" class="w-100"
+                                media="(max-width:1068px)" />
+                            <img src="/img/arenal-costa-rica-k7TE--1600x900@abc-xlarge-1x..jpg"
+                                alt="Paisaje de arenal en Costa Rica" class="w-100 img-modal" data-bs-toggle="modal"
+                                data-bs-target="#modal1" />
+                        </picture>
+                        <div class="card-body">
+                            <p class="card-text">Haz click para ver mas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 1 -->
+                <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="/img/arenal-costa-rica-k7TE--1600x900@abc-xlarge-1x..jpg"
+                                    alt="Paisaje de arenal en Costa Rica" class="img-fluid" />
+                                <p class="mt-3">Paisaje de Arenal en Costa Rica.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100" style="width: 18rem;">
-                            <picture class="card-img-top">
-                                <source
-                                  srcset="
-                                    /img/atardecer-toledo-opt-small-1x..jpg,
-                                    /img/atardecer-toledo-opt-small-2x..jpg 2x
-                                  "
-                                  class="w-100" 
-                                  media="(max-width:734px)"
-                                />
-                                <source
-                                  srcset="
-                                    /img/atardecer-toledo-opt-medium-1x..jpg,
-                                    /img/atardecer-toledo-opt-medium-2x..jpg 2x
-                                  "
-                                  class="w-100"
-                                  media="(max-width:1068px)"
-                                />
-                                <source
-                                  srcset="
-                                    /img/atardecer-toledo-opt-large-1x..jpg,
-                                    /img/atardecer-toledo-opt-large-2x..jpg 2x
-                                  "
-                                  class="w-100"
-                                  media="(max-width:1440px)"
-                                />
-                                <source
-                                  srcset="
-                                    /img/atardecer-toledo-opt-xlarge-1x..jpg,
-                                    /img/atardecer-toledo-opt-xlarge-2x..jpg 2x
-                                  "
-                                  class="w-100"
-                                  media="(min-width:0px)"
-                                />
-                                <img
-                                  src="/img/atardecer-toledo-opt-xlarge-1x..jpg"
-                                  alt="An iPhone next to an open Mac laptop"
-                                  class="w-100"
-                                />
-                            </picture>
-                            <div class="card-body">
-                              <p class="card-text">Paisaje de un atardecer en Toledo</p>
+                </div>
+
+                <div class="col p-2">
+                    <div class="card h-100" style="width: 18rem;">
+                        <picture class="card-img-top">
+                            <source srcset="/img/atardecer-toledo-opt-small-1x..jpg" class="w-100"
+                                media="(max-width:734px)" />
+                            <source srcset="/img/atardecer-toledo-opt-medium-1x..jpg" class="w-100"
+                                media="(max-width:1068px)" />
+                            <img src="/img/atardecer-toledo-opt-xlarge-1x..jpg" alt="Atardecer en Toledo"
+                                class="w-100 img-modal" data-bs-toggle="modal" data-bs-target="#modal2" />
+                        </picture>
+                        <div class="card-body">
+                            <p class="card-text">Haz click para ver mas</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 2 -->
+                <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="/img/atardecer-toledo-opt-xlarge-1x..jpg" alt="Atardecer en Toledo"
+                                    class="img-fluid" />
+                                <p class="mt-3">Paisaje de un atardecer en Toledo.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="img/sinmod/Beautiful-waterfalls-great-scenery_2560x1440.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <p class="card-text">Paisaje de unas cataratas, no se indico donde se tomo la foto</p>
+                </div>
+
+
+                <div class="col p-2">
+                    <div class="card h-100" style="width: 18rem;">
+                        <picture class="card-img-top">
+                            <source srcset="/img/Beautiful-waterfalls-great-scenery_2560x1440-small-1x..jpg" class="w-100"
+                                media="(max-width:734px)" />
+                            <source srcset="/img/Beautiful-waterfalls-great-scenery_2560x1440-medium-1x..jpg" class="w-100"
+                                media="(max-width:1068px)" />
+                            <source srcset="/img/Beautiful-waterfalls-great-scenery_2560x1440-xlarge-1x..jpg" class="w-100"
+                                media="(min-width:0px)" />
+                            <img src="/img/Beautiful-waterfalls-great-scenery_2560x1440-xlarge-1x..jpg" alt="Beautiful waterfalls scenery"
+                                class="w-100 img-modal" data-bs-toggle="modal" data-bs-target="#modal3" />
+                        </picture>
+                        <div class="card-body">
+                            <p class="card-text">Haz click para ver más</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 3 -->
+                <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="/img/Beautiful-waterfalls-great-scenery_2560x1440-xlarge-1x..jpg" alt="Beautiful waterfalls scenery"
+                                    class="img-fluid" />
+                                <p class="mt-3">Paisaje de unas cataratas, no se indico donde se tomo la foto</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="img/sinmod/c254f764-3f9c-4998-ad15-518c7af33f58_16-9-discover-aspect-ratio_default_0.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <p class="card-text">Otro paisaje de Toledo por la mañana</p>
+                </div>
+
+
+                <div class="col p-2">
+                    <div class="card h-100" style="width: 18rem;">
+                        <picture class="card-img-top">
+                            <source srcset="/img/c254f764-3f9c-4998-ad15-518c7af33f58_16-9-discover-aspect-ratio_default_0-small-1x..jpg" class="w-100"
+                                media="(max-width:734px)" />
+                            <source srcset="/img/c254f764-3f9c-4998-ad15-518c7af33f58_16-9-discover-aspect-ratio_default_0-medium-1x..jpg" class="w-100"
+                                media="(max-width:1068px)" />
+                            <source srcset="/img/c254f764-3f9c-4998-ad15-518c7af33f58_16-9-discover-aspect-ratio_default_0-large-1x..jpg" class="w-100"
+                                media="(min-width:0px)" />    
+                            <img src="/img/c254f764-3f9c-4998-ad15-518c7af33f58_16-9-discover-aspect-ratio_default_0-large-1x..jpg" alt="Discover beautiful landscapes" class="w-100 img-modal" data-bs-toggle="modal" data-bs-target="#modal4" />
+                        </picture>
+                        <div class="card-body">
+                            <p class="card-text">Haz click para ver más</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 4 -->
+                <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="/img/c254f764-3f9c-4998-ad15-518c7af33f58_16-9-discover-aspect-ratio_default_0-large-1x..jpg" alt="Discover beautiful landscapes" class="img-fluid" />
+                                <p class="mt-3">Otro paisaje de Toledo por la mañana</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="img/sinmod/depositphotos_729026194-stock-photo-fantastic-landscape-scene-mountain-aerial.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <p class="card-text">El paisaje de un monte verde, no se especifico el lugar de la foto</p>
+                </div>
+
+                <div class="col p-2">
+                    <div class="card h-100" style="width: 18rem;">
+                        <picture class="card-img-top">
+                            <source srcset="/img/depositphotos_729026194-stock-photo-fantastic-landscape-scene-mountain-aerial-small-1x..jpg" class="w-100"
+                                media="(max-width:734px)" />
+                            <source srcset="/img/depositphotos_729026194-stock-photo-fantastic-landscape-scene-mountain-aerial-medium-1x..jpg" class="w-100"
+                                media="(max-width:1068px)" />
+                            <source srcset="/img/depositphotos_729026194-stock-photo-fantastic-landscape-scene-mountain-aerial-large-1x..jpg" class="w-100"
+                                media="(min-width:0px)" />    
+                            <img src="/img/depositphotos_729026194-stock-photo-fantastic-landscape-scene-mountain-aerial-large-1x..jpg" alt="Fantastic landscape scene mountain" class="w-100 img-modal" data-bs-toggle="modal" data-bs-target="#modal5" />
+                        </picture>
+                        <div class="card-body">
+                            <p class="card-text">Haz click para ver más</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 5 -->
+                <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="/img/depositphotos_729026194-stock-photo-fantastic-landscape-scene-mountain-aerial-large-1x..jpg" alt="Fantastic landscape scene mountain" class="img-fluid" />
+                                <p class="mt-3">El paisaje de un monte verde, no se especifico el lugar de la foto</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="img/sinmod/paisajes-naturales-animales-y-flores-en-la-naturaleza-flowers-landscapes-and-animals-nature-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <p class="card-text">Paisaje de un rio, tambien no se especifica el lugar de dicha foto</p>
+                </div>
+
+                <div class="col p-2">
+                    <div class="card h-100" style="width: 18rem;">
+                        <picture class="card-img-top">
+                            <source srcset="/img/paisajes-naturales-animales-y-flores-en-la-naturaleza-flowers-landscapes-and-animals-nature-1-small-1x..jpg" class="w-100"
+                                media="(max-width:734px)" />
+                            <source srcset="/img/paisajes-naturales-animales-y-flores-en-la-naturaleza-flowers-landscapes-and-animals-nature-1-medium-1x..jpg" class="w-100"
+                                media="(max-width:1068px)" />
+                            <source srcset="/img/paisajes-naturales-animales-y-flores-en-la-naturaleza-flowers-landscapes-and-animals-nature-1-large-1x..jpg" class="w-100"
+                                media="(min-width:0px)" />    
+                            <img src="/img/paisajes-naturales-animales-y-flores-en-la-naturaleza-flowers-landscapes-and-animals-nature-1-large-1x..jpg" alt="Paisajes naturales con animales y flores" class="w-100 img-modal" data-bs-toggle="modal" data-bs-target="#modal6" />
+                        </picture>
+                        <div class="card-body">
+                            <p class="card-text">Haz click para ver más</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 6 -->
+                <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modal6Label" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="/img/paisajes-naturales-animales-y-flores-en-la-naturaleza-flowers-landscapes-and-animals-nature-1-large-1x..jpg" alt="Paisajes naturales con animales y flores" class="img-fluid" />
+                                <p class="mt-3">Paisaje de un rio, tambien no se especifica el lugar de dicha foto</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="img/sinmod/premium_photo-1668024966086-bd66ba04262f.jpeg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <p class="card-text">Un paisaje montañoso con un gran lago, el lugar de la foto no se especifica</p>
+                </div>
+
+
+                <div class="col p-2">
+                    <div class="card h-100" style="width: 18rem;">
+                        <picture class="card-img-top">
+                            <source srcset="/img/premium_photo-1668024966086-bd66ba04262f-small-1x..jpeg" class="w-100"
+                                media="(max-width:734px)" />
+                            <source srcset="/img/premium_photo-1668024966086-bd66ba04262f-medium-1x..jpeg" class="w-100"
+                                media="(max-width:1068px)" />
+                            <source srcset="/img/premium_photo-1668024966086-bd66ba04262f-large-1x..jpeg" class="w-100"
+                                media="(min-width:0px)" />
+                            <img src="/img/premium_photo-1668024966086-bd66ba04262f-large-1x..jpeg" alt="Premium landscape scene" class="w-100 img-modal" data-bs-toggle="modal" data-bs-target="#modal7" />
+                        </picture>
+                        <div class="card-body">
+                            <p class="card-text">Haz click para ver más</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 7 -->
+                <div class="modal fade" id="modal7" tabindex="-1" aria-labelledby="modal7Label" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="/img/premium_photo-1668024966086-bd66ba04262f-large-1x..jpeg" alt="Premium landscape scene" class="img-fluid" />
+                                <p class="mt-3">Un paisaje montañoso con un gran lago, el lugar de la foto no se especifica</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="img/sinmod/unnamed.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <p class="card-text">Otro paisaje montañoso, con niebla por la mañana. El lugar no se especifica</p>
+                </div>
+
+                <div class="col p-2">
+                    <div class="card h-100" style="width: 18rem;">
+                        <picture class="card-img-top">
+                            <source srcset="/img/unnamed-small-1x..jpg" class="w-100"
+                                media="(max-width:734px)" />
+                            <source srcset="/img/unnamed-medium-1x..jpg" class="w-100"
+                                media="(max-width:1068px)" />
+                            <source srcset="/img/unnamed-large-1x..jpg" class="w-100"
+                                media="(min-width:0px)" />
+                            <img src="/img/unnamed-large-1x..jpg" alt="Unnamed landscape" class="w-100 img-modal" data-bs-toggle="modal" data-bs-target="#modal8" />
+                        </picture>
+                        <div class="card-body">
+                            <p class="card-text">Haz click para ver más</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 8 -->
+                <div class="modal fade" id="modal8" tabindex="-1" aria-labelledby="modal8Label" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="/img/unnamed-large-1x..jpg" alt="Unnamed landscape" class="img-fluid" />
+                                <p class="mt-3">Otro paisaje montañoso, con niebla por la mañana. El lugar no se especifica</p>
                             </div>
                         </div>
                     </div>
+                </div>
                 </div>
             </section>
         </main>
